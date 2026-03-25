@@ -1,0 +1,10 @@
+com\bank\model\Checking.class
+com\bank\model\Account.class
+com\bank\model\Deposit.class
+com\bank\model\Bank.class
+com\bank\model\Withdrawal.class
+com\bank\model\ATM.class
+com\bank\model\Savings.class
+com\bank\main\Main.class
+com\bank\model\Customer.class
+com\bank\model\Transaction.class
