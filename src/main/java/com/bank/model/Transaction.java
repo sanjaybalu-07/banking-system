@@ -2,6 +2,7 @@ package com.bank.model;
 
 import java.util.Date;
 
+//transaction module implementation
 public class Transaction {
     private Date date;
     private String type;
