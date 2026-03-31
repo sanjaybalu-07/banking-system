@@ -9,12 +9,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>21</maven.compiler.release>
         <exec.mainClass>com.ecommerce.bank.CourseProject</exec.mainClass>
-        
     </properties>
     <build>
   <plugins>
-    
-    <!-- Fix main class -->
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-jar-plugin</artifactId>
@@ -31,7 +28,6 @@
   </plugins>
 </build>
     <dependencies>
-    <!-- JUnit for testing -->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>

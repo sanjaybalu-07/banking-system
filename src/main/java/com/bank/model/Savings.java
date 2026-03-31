@@ -1,5 +1,6 @@
 package com.bank.model;
 
+//saving module implementation
 public class Savings extends Account {
 
     public Savings(String accNo) {
