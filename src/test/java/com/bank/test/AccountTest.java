@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class AccountTest {
 
-    // ✅ Test Case 1: Deposit Money
+    // Test Case 1: Deposit Money
     @Test
     public void testDeposit() {
         Account acc = new Account("A101");
@@ -14,7 +14,7 @@ public class AccountTest {
         assertEquals(1000, acc.getBalance(), 0);
     }
 
-    // ✅ Test Case 2: Withdraw Money
+    // Test Case 2: Withdraw Money
     @Test
     public void testWithdraw() {
         Account acc = new Account("A102");
@@ -23,7 +23,7 @@ public class AccountTest {
         assertEquals(600, acc.getBalance(), 0);
     }
 
-    // ✅ Test Case 3: Withdraw with Insufficient Balance
+    // Test Case 3: Withdraw with Insufficient Balance
     @Test
     public void testInsufficientBalance() {
         Account acc = new Account("A103");
@@ -34,7 +34,7 @@ public class AccountTest {
         assertEquals(300, acc.getBalance(), 0);
     }
 
-    // ✅ Test Case 4: Transfer Between Accounts
+    // Test Case 4: Transfer Between Accounts
     @Test
     public void testTransfer() {
         Account acc1 = new Account("A104");
@@ -53,7 +53,7 @@ public class AccountTest {
         assertEquals(200, acc2.getBalance(), 0);
     }
 
-    // ✅ Test Case 5: Interest Calculation (Savings Account)
+    // Test Case 5: Interest Calculation (Savings Account)
     @Test
     public void testInterest() {
         Savings acc = new Savings("A106");
